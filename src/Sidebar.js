@@ -8,14 +8,14 @@ const SideBarIcon = ({ icon }) => {
 
 const SideBar = () => {
   return (
-    <div className="fixed top-0 left-0 h-screen w-20 m-0 flex flex-col bg-green-300 shadow-lg text-white">
+    <div className="fixed top-0 left-0 h-screen w-20 m-0 flex flex-col bg-gray-400 shadow-lg text-cyan-500 ">
 
-      <div className="sidebar-icon ">
-        <FaHome size={28} className="cursor-pointer" />
+      <div className="sidebar-icon cursor-pointer mt-6">
+        <FaHome size={28}  />
       </div>
 
-      <div className="sidebar-icon">
-        <FaQuestion  size={28} className="cursor-pointer"/>
+      <div className="sidebar-icon cursor-pointer">
+        <FaQuestion  size={28} />
       </div>
 
     </div>
