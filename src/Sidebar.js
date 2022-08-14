@@ -1,4 +1,4 @@
-import { FaBaby, FaFire, FaHome, FaQuestion } from 'react-icons/fa'
+import { FaBaby, FaFire, FaHome, FaQuestion, FaSearch } from 'react-icons/fa'
 
 const SideBarIcon = ({ icon }) => {
   <div className="sidebar-icon">
@@ -8,14 +8,12 @@ const SideBarIcon = ({ icon }) => {
 
 const SideBar = () => {
   return (
-    <div className="fixed top-0 left-0 h-screen w-20 m-0 flex flex-col bg-gray-400 shadow-lg text-cyan-500 ">
-
-      <div className="sidebar-icon cursor-pointer mt-6">
-        <FaHome size={28}  />
-      </div>
-
-      <div className="sidebar-icon cursor-pointer">
-        <FaQuestion  size={28} />
+    <div className="fixed top-0 left-0 h-20 w-screen m-0 flex flex-row justify-center bg-gray-400  text-cyan-500 shadow-xl">
+      <div className='flex flex-row space-x-4'>
+        <input className='h-10 w-auto mt-4'  />
+        <div className="sidebar-icon cursor-pointer mt-3">
+          <FaSearch size={28} />
+        </div>
       </div>
 
     </div>
