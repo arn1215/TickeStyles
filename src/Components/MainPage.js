@@ -7,13 +7,8 @@ import Navbar from "./Navbar"
 const MainPage = () => {
   return (
     <>
-      <div className="w-full bg-slate-200 h-screen">
-        <Navbar />
-        <div className="multiple-carousel-container mt-20">
-          <Carousel />
-          <Carousel />
-        </div>
-        <Footer />
+      <div className="w-full bg-slate-200 h-screen flex-col space">
+        <Carousel />
       </div>
     </>
   )

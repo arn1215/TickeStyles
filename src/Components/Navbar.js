@@ -2,7 +2,7 @@
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-slate">
+    <div className="navbar bg-slate-200">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost btn-circle">
