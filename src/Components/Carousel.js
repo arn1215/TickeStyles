@@ -3,7 +3,6 @@ import Card from "./Card"
 
 const Carousel = ({ cards }) => {
   return (
-    
     <div class="carousel w-8/12 ml-72 mt-20">
       <div id="slide1" class="carousel-item relative w-full">
         <div class="card-container flex ml-36">
