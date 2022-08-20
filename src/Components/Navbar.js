@@ -2,7 +2,7 @@
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-slate">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -19,7 +19,7 @@ const Navbar = () => {
         <div class="form-control">
           <div class="input-group">
             <input type="text" placeholder="Search…" class="input input-bordered w-128 mt-2 shadow-lg" />
-            <button class="btn btn-square btn-secondary  mt-2 shadow-lg ">
+            <button class="btn btn-square btn-primary  mt-2 shadow-lg ">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
             </button>
           </div>
